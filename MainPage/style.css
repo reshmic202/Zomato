@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+}
+.mainpage{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    height: 450px;
+}
+.navbar{
+    margin-right: 200px;
+    padding-top: 25px;
+}
+.navbar ul{
+    
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.navbar a{
+    
+    text-decoration: none;
+    color:white;
+}
+li{
+    list-style: none;
+    margin-right: 50px;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    transform: translateY(80%);
+}
+.content h1{
+    font-size: 55px;
+}
+.content p{
+    font-size: 33px;
+}
+.main1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main1 img{
+    height: 30px;
+    width: 45px;
+    margin: 10px;
+} 
+.main2 p{
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    color:grey;
+    font-size: 1rem;
+}
+.buttons{
+    margin-left: 170px;  
+   
+}
+.btn1{
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top:10px;
+    font-size: 20px;
+    padding: 10px;
+    /* padding-bottom: 15px; */
+    margin-right:30px ;
+    color: grey;
+    
+}
+.buttons button{
+    height: 60px;
+    width: 285px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.buttons button:hover{
+    color:blue;
+}
+
+.site-footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.071);
+    margin-top: 10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-column {
+    flex: 1;
+    padding: 0 20px;
+  }
+  .footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-column ul li {
+    margin-bottom: 4px;
+    font-size: 15px;
+    color: grey;
+  }
+  .footer-column img{
+    margin-top: 10px;
+  }
+ #ParaG{
+    padding-left: 150px;
+    color: grey;
+    font-size: 12px;
+ }

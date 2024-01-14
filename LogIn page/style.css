@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    height: 450px;
+    width: 100%;
+}
+.mainpage{
+    background-color: white;
+    margin: 100px 550px;
+    border-radius: 4px;
+    border: 1px solid black;
+    height: 400px;
+    width: 350px;
+    padding-left: 15px;
+     
+}
+#plc1{
+    margin-top: 15px;
+    border:1px solid grey;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+
+}
+
+#btn1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:1px solid grey;
+    border-radius: 4px;
+    padding: 8px;
+    width: 325px;
+    text-align: center;
+}
+.button{
+    background-color: rgba(255, 0, 0, 0.836);
+}
+#para{
+    margin-top: 10px;
+}
